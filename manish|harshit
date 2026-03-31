@@ -1,0 +1,39 @@
+class Main {
+    public static void main(String[] args) 
+    {
+       Harshit obj1 = new Harshit();
+       Manish obj2 = new Manish();
+       
+       System.out.println(obj2.name);
+       System.out.println(obj1.Address);
+    }
+}
+
+
+class Harshit {
+        String name = "Harshit";
+        long phno = 789465132;
+        String Address = "Bharatpur";
+}
+class Manish
+{
+    String name = "Manish";
+    long phno = 9838441;
+    String Address = "Bihar";
+}
+
+________________________
+
+class Main{
+    public static void main(String[] args){
+        Human obj = new Human();
+        System.out.println(obj.category);
+    }
+}
+class Human {
+    String colour = "Kalua";
+    float height = 2.2f;
+    int age = 22;
+    String gender = "Patanahi";
+    String category  = "Pedophile";
+}
